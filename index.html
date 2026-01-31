@@ -3,415 +3,289 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>12 Histórias Bíblicas para Crianças (PDF) • Leitura curta + perguntas + atividades</title>
-  <meta name="description" content="12 Histórias Bíblicas para Crianças em PDF: linguagem infantil, leitura curta, perguntas e atividades. Ideal para devocional em família (5–10 min/dia)." />
+  <title>12 Histórias Bíblicas para Crianças (PDF) — R$ 29,99</title>
+  <meta name="description" content="Devocional infantil em PDF com 12 histórias bíblicas, linguagem de criança, perguntas e atividades. Ideal para pais ensinarem valores cristãos em 5–10 minutos por dia." />
+
   <style>
     :root{
-      --bg:#0b1220;
-      --card:#111a2e;
-      --muted:#aab3c5;
-      --text:#eef2ff;
-      --accent:#7dd3fc;
-      --accent2:#a7f3d0;
-      --warn:#fde68a;
-      --border:rgba(255,255,255,.12);
-      --shadow: 0 16px 60px rgba(0,0,0,.35);
-      --radius:18px;
-      --max: 1100px;
+      --bg:#ffffff;
+      --text:#111827;
+      --muted:#4b5563;
+      --border:#e5e7eb;
+      --accent:#111827; /* básico e “sério” */
+      --accent2:#2563eb;
+      --soft:#f9fafb;
+      --radius:12px;
+      --max: 960px;
     }
     *{box-sizing:border-box}
     body{
       margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      background: radial-gradient(1200px 600px at 20% -10%, rgba(125,211,252,.16), transparent 55%),
-                  radial-gradient(900px 500px at 90% 10%, rgba(167,243,208,.12), transparent 55%),
-                  var(--bg);
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
       color: var(--text);
       line-height:1.55;
     }
     a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
-    .topbar{
-      position:sticky; top:0; z-index:20;
-      background: rgba(11,18,32,.78);
-      backdrop-filter: blur(10px);
+    .wrap{max-width:var(--max); margin:0 auto; padding:18px}
+    .top{
       border-bottom:1px solid var(--border);
+      background:#fff;
     }
-    .topbar .wrap{
-      display:flex; align-items:center; justify-content:space-between; gap:16px;
-      padding:14px 24px;
+    .top .wrap{
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
     }
     .brand{
-      display:flex; align-items:center; gap:10px; text-decoration:none;
+      display:flex; align-items:center; gap:10px;
+      text-decoration:none;
     }
     .logo{
-      width:34px; height:34px; border-radius:12px;
-      background: linear-gradient(135deg, rgba(125,211,252,.9), rgba(167,243,208,.85));
-      box-shadow: 0 10px 24px rgba(125,211,252,.15);
-    }
-    .brand b{letter-spacing:.2px}
-    .pill{
-      font-size:13px; color: var(--muted);
+      width:34px; height:34px; border-radius:8px;
+      background: var(--soft);
       border:1px solid var(--border);
-      padding:8px 12px; border-radius:999px;
-      display:flex; gap:8px; align-items:center;
     }
-    header.hero{padding:46px 0 22px}
-    .hero-grid{
-      display:grid; gap:22px;
-      grid-template-columns: 1.15fr .85fr;
-      align-items:stretch;
-    }
-    @media (max-width: 920px){
-      .hero-grid{grid-template-columns:1fr}
-    }
-    .card{
-      background: linear-gradient(180deg, rgba(255,255,255,.04), transparent 22%), var(--card);
-      border:1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding:22px;
-    }
-    .h1{
-      font-size: clamp(28px, 3.5vw, 44px);
-      line-height:1.1; margin:0 0 14px;
-      letter-spacing:-.6px;
-    }
-    .lead{color: var(--muted); font-size: 17px; margin:0 0 18px}
-    .badges{display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 0}
-    .badge{
-      border:1px solid var(--border);
-      padding:8px 12px; border-radius:999px;
-      color: rgba(238,242,255,.92);
-      font-size:13px;
-      background: rgba(255,255,255,.03);
-    }
-    .badge strong{color: var(--accent)}
-    .pricebox{
-      display:flex; flex-direction:column; gap:14px;
-    }
-    .price{
-      display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
-      padding:14px; border-radius:14px;
-      border:1px solid var(--border);
-      background: rgba(255,255,255,.03);
-    }
-    .price .value{
-      font-size:34px; font-weight:800; letter-spacing:-.5px;
-    }
-    .price small{color: var(--muted)}
-    .cta{
-      display:grid; gap:10px;
-    }
+    .brand-title{font-weight:700}
+    .brand-sub{font-size:12px; color:var(--muted)}
     .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      gap:10px;
-      width:100%;
-      padding:14px 16px;
-      border-radius:14px;
-      border:1px solid rgba(125,211,252,.35);
-      background: linear-gradient(135deg, rgba(125,211,252,.95), rgba(167,243,208,.85));
-      color:#06111f;
-      font-weight:800;
+      display:inline-block;
       text-decoration:none;
-      box-shadow: 0 14px 40px rgba(125,211,252,.12);
+      border:1px solid var(--accent);
+      padding:10px 14px;
+      border-radius:10px;
+      font-weight:700;
+      background: var(--accent);
+      color:#fff;
     }
-    .btn:hover{filter:brightness(1.02)}
+    .btn:hover{opacity:.92}
     .btn.secondary{
-      background: rgba(255,255,255,.04);
+      background:#fff;
+      color: var(--accent);
       border-color: var(--border);
-      color: var(--text);
-      box-shadow:none;
       font-weight:700;
     }
-    .fineprint{color: var(--muted); font-size:13px}
-    section{padding:18px 0}
-    .grid2{
-      display:grid; gap:18px;
-      grid-template-columns: 1fr 1fr;
+
+    header.hero{padding:22px 0 6px}
+    h1{
+      margin:0 0 10px;
+      font-size:28px;
+      line-height:1.2;
     }
-    @media (max-width: 920px){.grid2{grid-template-columns:1fr}}
+    .lead{
+      margin:0 0 14px;
+      color:var(--muted);
+      font-size:16px;
+    }
+
+    .card{
+      border:1px solid var(--border);
+      border-radius: var(--radius);
+      background:#fff;
+      padding:16px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:14px;
+      align-items:start;
+    }
+    @media (max-width: 840px){
+      .grid{grid-template-columns:1fr}
+    }
+
+    .price{
+      font-size:22px;
+      font-weight:800;
+      margin:6px 0 10px;
+    }
+    .small{font-size:13px; color:var(--muted)}
+    .list{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--text);
+    }
+    .list li{margin:6px 0}
+    section{padding:10px 0}
     h2{
-      margin:0 0 12px;
-      font-size: clamp(20px, 2.2vw, 26px);
-      letter-spacing:-.2px;
+      margin:0 0 8px;
+      font-size:20px;
     }
-    p{margin:0 0 12px}
-    .muted{color:var(--muted)}
-    ul{margin:10px 0 0; padding-left:18px}
-    li{margin:8px 0}
-    .kpi{
-      display:grid; gap:12px;
-      grid-template-columns: repeat(3, 1fr);
-      margin-top:12px;
-    }
-    @media (max-width: 920px){.kpi{grid-template-columns:1fr}}
-    .kpi .item{
+    p{margin:0 0 10px}
+    .soft{
+      background: var(--soft);
       border:1px solid var(--border);
-      background: rgba(255,255,255,.03);
-      border-radius:14px;
+      border-radius: var(--radius);
       padding:14px;
     }
-    .kpi .item b{display:block; font-size:16px}
-    .kpi .item span{color:var(--muted); font-size:13px}
-    .highlight{
-      border-left: 4px solid var(--warn);
-      padding:14px 14px 14px 16px;
-      border-radius:14px;
-      background: rgba(253,230,138,.08);
-      border:1px solid rgba(253,230,138,.25);
-    }
-    .steps{
-      display:grid; gap:12px;
-      grid-template-columns: repeat(3,1fr);
-      margin-top:10px;
-    }
-    @media (max-width: 920px){.steps{grid-template-columns:1fr}}
-    .step{
-      padding:14px; border-radius:14px;
+    .divider{height:1px; background:var(--border); margin:12px 0}
+    details{
       border:1px solid var(--border);
-      background: rgba(255,255,255,.03);
+      border-radius: var(--radius);
+      padding:12px;
+      margin:8px 0;
+      background:#fff;
     }
-    .step .n{
-      display:inline-flex; align-items:center; justify-content:center;
-      width:28px; height:28px; border-radius:10px;
-      background: rgba(125,211,252,.18);
-      border:1px solid rgba(125,211,252,.35);
-      margin-bottom:10px;
-      font-weight:800;
-      color: var(--accent);
-    }
-    .faq details{
-      border:1px solid var(--border);
-      background: rgba(255,255,255,.03);
-      border-radius:14px;
-      padding:14px;
-      margin:10px 0;
-    }
-    .faq summary{
+    summary{
       cursor:pointer;
-      font-weight:800;
+      font-weight:700;
     }
-    .footer{
-      padding:26px 0 46px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .note{
+    footer{
+      margin-top:18px;
+      border-top:1px solid var(--border);
+      padding:16px 0 26px;
+      color:var(--muted);
       font-size:12px;
-      color: rgba(170,179,197,.9);
-      margin-top:10px;
-    }
-    .divider{
-      height:1px; background: var(--border); margin:18px 0;
     }
   </style>
 </head>
 
 <body>
-  <!-- Topbar -->
-  <div class="topbar">
+  <!-- Top / Header simples -->
+  <div class="top">
     <div class="wrap">
       <a class="brand" href="#top">
         <div class="logo" aria-hidden="true"></div>
         <div>
-          <b>Histórias Bíblicas para Crianças</b><br>
-          <span class="muted" style="font-size:12px;">PDF • leitura em família • 4–8 anos</span>
+          <div class="brand-title">Devocional Infantil (PDF)</div>
+          <div class="brand-sub">12 Histórias Bíblicas • perguntas • atividades</div>
         </div>
       </a>
-      <div class="pill">
-        <span>📄</span>
-        <span>Entrega imediata (download)</span>
-      </div>
+      <a class="btn" href="https://pay.kirvano.com/25eccac1-e051-4a08-9438-9c094ad4bb90" target="_blank" rel="noopener">
+        Comprar agora
+      </a>
     </div>
   </div>
 
-  <!-- Hero -->
+  <!-- HERO -->
   <header class="hero" id="top">
     <div class="wrap">
-      <div class="hero-grid">
+      <div class="grid">
         <div class="card">
-          <h1 class="h1">12 Histórias Bíblicas para Crianças (PDF)</h1>
+          <h1>12 Histórias Bíblicas para Crianças (PDF)</h1>
           <p class="lead">
-            Histórias curtas, linguagem infantil, <b>perguntas prontas</b> e <b>atividades rápidas</b>
-            para ajudar seu filho a entender a mensagem — sem achar “chato” e sem rejeição.
+            Um devocional infantil simples: histórias curtas e em linguagem de criança,
+            com <b>perguntas prontas</b> e <b>atividades rápidas</b> para ajudar seu filho a entender a mensagem
+            e guardar valores no coração — sem achar “chato”.
           </p>
 
-          <div class="badges">
-            <div class="badge"><strong>12</strong> histórias essenciais</div>
-            <div class="badge"><strong>5–10 min</strong> por dia</div>
-            <div class="badge"><strong>4–8 anos</strong> (ideal)</div>
-            <div class="badge"><strong>Leitura em família</strong></div>
+          <div class="soft">
+            <b>Nossa oferta (bem direta):</b>
+            <p style="margin-top:6px;">
+              Um PDF pronto para você ler com seu filho em <b>5 a 10 minutos por dia</b>,
+              com 12 histórias essenciais (Antigo e Novo Testamento), cada uma com:
+              <b>o que aprendemos</b> + <b>perguntas</b> + <b>atividade</b>.
+            </p>
           </div>
 
           <div class="divider"></div>
 
-          <div class="highlight">
-            <b>Por que este livro existe?</b>
-            <p class="muted" style="margin-top:8px;">
-              A maioria dos materiais infantis falha por um motivo simples: <b>falam como adulto</b>.
-              A criança perde o interesse, não entende as palavras e associa a Bíblia a algo “difícil”.
-              Aqui, a mensagem vem no <b>formato da criança</b>: curto, claro, com interação.
-            </p>
-          </div>
-
-          <div class="kpi">
-            <div class="item">
-              <b>Compreensão</b>
-              <span>Linguagem adequada à idade</span>
-            </div>
-            <div class="item">
-              <b>Engajamento</b>
-              <span>Perguntas + atividade no fim</span>
-            </div>
-            <div class="item">
-              <b>Constância</b>
-              <span>Plano de 12 dias (rotina)</span>
-            </div>
-          </div>
+          <b>Por que este livro existe?</b>
+          <p>
+            Porque muitos materiais infantis falham por um motivo: <b>falam como adulto</b>.
+            A criança se distrai, não entende e cria rejeição. Aqui, a mensagem vem no formato que a criança absorve:
+            <b>curto, claro e interativo</b>.
+          </p>
         </div>
 
-        <div class="card pricebox">
-          <div class="price">
-            <div>
-              <small>Preço promocional</small>
-              <div class="value">R$ 27</div>
-              <small class="muted">PDF com acesso imediato</small>
-            </div>
-            <div style="text-align:right;">
-              <small class="muted">Pagamento seguro</small><br>
-              <small class="muted">Pix / Cartão</small>
-            </div>
-          </div>
-
-          <div class="cta">
-            <!-- Troque o href para o seu checkout real -->
-            <a class="btn" href="https://SEU-CHECKOUT-AQUI.com" target="_blank" rel="noopener">
-              Quero baixar agora (PDF)
-              <span aria-hidden="true">→</span>
-            </a>
-            <a class="btn secondary" href="#conteudo">
-              Ver o conteúdo do livro
-            </a>
-            <p class="fineprint">
-              ✅ Download imediato • ✅ Acesso vitalício ao arquivo • ✅ Pode ler no celular, tablet ou imprimir
-            </p>
-          </div>
+        <div class="card">
+          <div class="small">Preço promocional</div>
+          <div class="price">R$ 29,99</div>
+          <div class="small">Entrega imediata (download). Leia no celular/tablet ou imprima.</div>
 
           <div class="divider"></div>
 
-          <p class="muted"><b>Para quem é?</b></p>
-          <ul class="muted">
-            <li>Pais que querem ensinar a Palavra com amor e clareza</li>
-            <li>Quem quer uma rotina simples de 5–10 minutos por dia</li>
-            <li>Crianças que se distraem fácil e precisam de leitura curta e visual</li>
-          </ul>
+          <a class="btn" style="width:100%; text-align:center;"
+             href="https://pay.kirvano.com/25eccac1-e051-4a08-9438-9c094ad4bb90"
+             target="_blank" rel="noopener">
+            Comprar e baixar agora (R$ 29,99)
+          </a>
+          <div style="height:10px"></div>
+          <a class="btn secondary" style="width:100%; text-align:center;" href="#conteudo">
+            Ver conteúdo do PDF
+          </a>
 
-          <p class="note">
-            *Este é um material de recontagem infantil (original), feito para leitura em família e ensino de valores cristãos.
-          </p>
+          <div class="divider"></div>
+
+          <b>Para quem é?</b>
+          <ul class="list">
+            <li>Pais que querem ensinar valores cristãos com clareza</li>
+            <li>Quem quer criar rotina devocional em família</li>
+            <li>Crianças (principalmente 4–8 anos)</li>
+          </ul>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Unique mechanism -->
+  <!-- MECANISMO -->
   <section>
     <div class="wrap">
-      <div class="grid2">
-        <div class="card">
-          <h2>O mecanismo único: “ler, conversar e fixar”</h2>
-          <p class="muted">
-            Você não precisa “inventar como ensinar”. Cada história foi construída para conduzir a criança
-            em três passos simples:
-          </p>
-          <div class="steps">
-            <div class="step">
-              <div class="n">1</div>
-              <b>História curta</b>
-              <div class="muted">atenção infantil + entendimento</div>
-            </div>
-            <div class="step">
-              <div class="n">2</div>
-              <b>Perguntas prontas</b>
-              <div class="muted">conversa guiada (sem briga)</div>
-            </div>
-            <div class="step">
-              <div class="n">3</div>
-              <b>Atividade rápida</b>
-              <div class="muted">a mensagem “gruda” na mente</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <h2>Baseado em princípios de leitura infantil</h2>
-          <p class="muted">
-            Sem linguagem complicada, sem capítulos longos. O livro segue princípios simples que funcionam
-            para crianças:
-          </p>
-          <ul class="muted">
-            <li><b>Atenção curta</b> → histórias rápidas, sem “encher linguiça”</li>
-            <li><b>Aprendizado ativo</b> → perguntas que fazem a criança pensar</li>
-            <li><b>Repetição com sentido</b> → 12 dias para formar hábito</li>
-            <li><b>Conexão emocional</b> → lições positivas e aplicáveis</li>
-            <li><b>Participação do adulto</b> → leitura em família, sem forçar</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Content -->
-  <section id="conteudo">
-    <div class="wrap">
       <div class="card">
-        <h2>O que você recebe (conteúdo completo)</h2>
-        <p class="muted">
-          12 histórias essenciais (Antigo e Novo Testamento) com “o que aprendemos”, perguntas e atividade.
+        <h2>O que torna este PDF diferente</h2>
+        <p>
+          Ele foi pensado com <b>princípios simples de leitura infantil</b> (sem palavras difíceis e sem texto longo),
+          para aumentar atenção e compreensão:
         </p>
-
-        <div class="grid2" style="margin-top:14px;">
-          <div>
-            <ul class="muted">
-              <li>A Criação do Mundo</li>
-              <li>Noé e a Arca</li>
-              <li>Abraão e a Promessa</li>
-              <li>José e o Perdão</li>
-              <li>Moisés e o Mar Vermelho</li>
-              <li>Davi e Golias</li>
-            </ul>
-          </div>
-          <div>
-            <ul class="muted">
-              <li>Daniel na Cova dos Leões</li>
-              <li>Jonas e o Grande Peixe</li>
-              <li>O Nascimento de Jesus</li>
-              <li>Jesus Acalma a Tempestade</li>
-              <li>O Bom Samaritano</li>
-              <li>O Filho Pródigo</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="list">
+          <li><b>Histórias curtas</b> → cabem na atenção da criança</li>
+          <li><b>Perguntas prontas</b> → ajudam você a conversar sem “forçar”</li>
+          <li><b>Atividade rápida</b> → fixa a mensagem e vira hábito</li>
+          <li><b>Rotina</b> → 12 histórias = 12 dias (ou 3 por semana)</li>
+        </ul>
 
         <div class="divider"></div>
 
-        <h2>Por que escolhemos essas 12 histórias?</h2>
-        <p class="muted">
-          Porque elas formam uma base sólida: começam no princípio (Criação), mostram fé e caráter
-          (Noé, Abraão, José, Moisés, Davi), trazem coragem e obediência (Daniel, Jonas) e colocam Jesus
-          no centro (Nascimento, milagres e parábolas sobre amor e perdão).
+        <p class="soft" style="margin:0;">
+          <b>Em resumo:</b> você lê, conversa e a criança entende — e isso aumenta muito a chance de ela
+          lembrar (e querer ler de novo).
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Emotional copy -->
+  <!-- CONTEÚDO -->
+  <section id="conteudo">
+    <div class="wrap">
+      <div class="card">
+        <h2>Conteúdo do PDF (as 12 histórias)</h2>
+        <ul class="list">
+          <li>A Criação do Mundo</li>
+          <li>Noé e a Arca</li>
+          <li>Abraão e a Promessa</li>
+          <li>José e o Perdão</li>
+          <li>Moisés e o Mar Vermelho</li>
+          <li>Davi e Golias</li>
+          <li>Daniel na Cova dos Leões</li>
+          <li>Jonas e o Grande Peixe</li>
+          <li>O Nascimento de Jesus</li>
+          <li>Jesus Acalma a Tempestade</li>
+          <li>O Bom Samaritano</li>
+          <li>O Filho Pródigo</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h2>Por que escolhemos essas 12?</h2>
+        <p>
+          Porque elas formam uma base sólida: começam no princípio (Criação), ensinam fé e caráter
+          (Noé, Abraão, José, Moisés, Davi), mostram coragem e obediência (Daniel, Jonas) e colocam Jesus
+          no centro (Nascimento, milagres e parábolas sobre amor e perdão).
+        </p>
+
+        <div class="divider"></div>
+
+        <a class="btn" href="https://pay.kirvano.com/25eccac1-e051-4a08-9438-9c094ad4bb90" target="_blank" rel="noopener">
+          Comprar e baixar agora (R$ 29,99)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COPY EMOCIONAL -->
   <section>
     <div class="wrap">
       <div class="card">
         <h2>O que você está construindo de verdade</h2>
-        <p class="muted">
+        <p>
           Você não quer só que seu filho “saiba histórias”. Você quer que ele <b>guarde valores</b>,
           aprenda sobre Jesus e cresça com o coração firme.
         </p>
@@ -419,87 +293,67 @@
           Este PDF é uma ferramenta simples para transformar isso em rotina: poucos minutos por dia,
           com clareza, carinho e participação — do jeito que a criança entende.
         </p>
-
-        <div class="divider"></div>
-
-        <a class="btn" href="https://SEU-CHECKOUT-AQUI.com" target="_blank" rel="noopener">
-          Quero baixar agora (R$ 27)
-          <span aria-hidden="true">→</span>
-        </a>
-
-        <p class="fineprint" style="margin-top:10px;">
-          ✅ Download imediato • ✅ Leitura no celular ou impressão • ✅ Uso em casa, igreja, EBD ou célula
-        </p>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section class="faq">
+  <section>
     <div class="wrap">
       <div class="card">
-        <h2>Dúvidas frequentes</h2>
+        <h2>Dúvidas rápidas</h2>
 
         <details>
           <summary>É um livro físico?</summary>
-          <p class="muted" style="margin-top:10px;">
+          <p class="small" style="margin-top:8px;">
             Não. É um <b>PDF</b> (arquivo digital). Você recebe o download imediatamente após o pagamento.
-            Pode ler no celular/tablet ou imprimir.
           </p>
         </details>
 
         <details>
           <summary>Para qual idade é indicado?</summary>
-          <p class="muted" style="margin-top:10px;">
-            O formato foi pensado principalmente para <b>4 a 8 anos</b>.
-            Crianças menores podem acompanhar com leitura do adulto. Crianças maiores também aproveitam
-            pela conversa e atividades.
+          <p class="small" style="margin-top:8px;">
+            Ideal para <b>4 a 8 anos</b>. Menores podem acompanhar com leitura do adulto. Maiores também aproveitam pelas perguntas.
           </p>
         </details>
 
         <details>
-          <summary>Quanto tempo leva por dia?</summary>
-          <p class="muted" style="margin-top:10px;">
-            Em média <b>5 a 10 minutos</b>: história curta + 2–3 perguntas + uma atividade rápida.
+          <summary>Quanto tempo leva?</summary>
+          <p class="small" style="margin-top:8px;">
+            Em média <b>5 a 10 minutos</b>: história curta + perguntas + atividade.
           </p>
         </details>
 
         <details>
-          <summary>Posso usar na Escola Bíblica Dominical / EBD?</summary>
-          <p class="muted" style="margin-top:10px;">
-            Sim. O formato é excelente para leitura guiada e conversa.
-            Se você quiser, pode adaptar as atividades ao seu grupo.
+          <summary>O texto é cópia de alguma tradução?</summary>
+          <p class="small" style="margin-top:8px;">
+            Não. É uma <b>recontagem original em linguagem infantil</b>, feita para compreensão e leitura em família.
           </p>
         </details>
 
-        <details>
-          <summary>O conteúdo é uma recontagem da Bíblia?</summary>
-          <p class="muted" style="margin-top:10px;">
-            Sim. As histórias são recontadas em linguagem infantil, com foco em compreensão e valores cristãos,
-            sem copiar textos de traduções específicas.
-          </p>
-        </details>
+        <div class="divider"></div>
 
+        <a class="btn" href="https://pay.kirvano.com/25eccac1-e051-4a08-9438-9c094ad4bb90" target="_blank" rel="noopener">
+          Comprar agora por R$ 29,99
+        </a>
+        <p class="small" style="margin-top:10px;">
+          Download imediato • Leia no celular/tablet • Pode imprimir
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <div class="wrap">
-      <div class="divider"></div>
       <p>
-        © <span id="y"></span> • Histórias Bíblicas para Crianças (PDF).<br>
-        Este material é educativo e devocional. Não é afiliado a nenhuma igreja ou denominação.
-      </p>
-      <p class="note">
-        Ajuste o link do botão para seu checkout e (se quiser) inclua políticas: termos, privacidade e reembolso.
+        © <span id="y"></span> • Devocional Infantil (PDF).<br>
+        Material educativo e devocional. Não afiliado a nenhuma igreja ou denominação.
       </p>
     </div>
   </footer>
 
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
+    document.getElementById("y").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
